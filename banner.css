@@ -1,0 +1,38 @@
+.banner{
+    background-image: url("FUNDO.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.navbar-light .navbar-brand{
+    color: #fffbd2;
+    font-size: 50px;
+}
+
+.conteudoparagrafo{
+    display: grid;
+    grid-template-areas: 
+    "paragrafo circulo";
+    grid-template-columns: 1fr 1fr;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    color: #fffbd2;
+    padding-left: 35px;
+}
+
+.paragrafo{
+    font-size: 25px;
+    color: #fffbd2;
+    align-self: center;
+    margin: 20px;
+}
+
+.circulo{
+     background-color: black;
+     width: 500px;
+     height: 500px;
+     border-radius: 50%;
+    background-image: url("cassia.jfif");
+}
